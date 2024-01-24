@@ -9,7 +9,7 @@
     <div class="form-control">
       <label for="amount"
         >Transaction Amount:<br />
-        (negative amount - expense, positive amount - income)</label
+        (negative - expense, positive - income)</label
       >
       <input
         type="text"
