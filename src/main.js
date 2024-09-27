@@ -10,11 +10,12 @@ import { createRouter, createWebHistory } from 'vue-router';
 import NotFound from './components/NotFound.vue';
 import Route1 from "./components/Route1.vue";
 import Route2 from "./components/Route2.vue";
+import Home from "./components/Home.vue";
 
 
 // Define your routes
 const routes = [
-    { path: '/', name: 'Root',},
+    { path: '/', name: 'Root', component: Home},
     { path: '/route1', name: 'Route1', component: Route1},
     { path: '/route2', name: 'Route2', component: Route2},
     { path: '/:pathMatch(.*)*', name: 'NotFound', component: NotFound },
